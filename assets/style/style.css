@@ -16,7 +16,6 @@ body {
   position: absolute;
   color: #ecf8fb;
   z-index: 2;
-  display: none;
 }
 .nav-menu {
   font-size: 20px;
@@ -35,6 +34,370 @@ body {
 }
 .nav-button-color {
   color: #000000;
+}
+@media screen and (min-width: 2560px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 10%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 50px;
+    font-size: 30px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 10%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 50px;
+    font-size: 30px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 10%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 50px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 10%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 50px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1365px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 10%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .nav-bar {
+    height: 8vh;
+  }
+  .brand {
+    height: 8vh;
+    width: 20%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 1vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 3vh;
+    right: 0;
+    height: 5vh;
+    width: 35%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 30%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 50%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 30%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+    color: #02178c;
+  }
+  .nav-menu {
+    top: 7vh;
+    right: 0;
+    height: 5vh;
+    width: 50%;
+    background-color: #02178c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-links {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #ecf8fb;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 40%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+  }
+  .nav-menu {
+    top: 3.5vh;
+    right: 0;
+    height: 35vh;
+    width: 35%;
+    background-color: #ecf8fb;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-links {
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 40%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+  }
+  .nav-menu {
+    top: 3.5vh;
+    right: 0;
+    height: 35vh;
+    width: 35%;
+    background-color: #ecf8fb;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-links {
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 479px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 40%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+  }
+  .nav-menu {
+    top: 3.5vh;
+    right: 0;
+    height: 35vh;
+    width: 35%;
+    background-color: #ecf8fb;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-links {
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 411px) {
+  .nav-bar {
+    height: 12vh;
+  }
+  .brand {
+    height: 12vh;
+    width: 40%;
+  }
+  .burger {
+    font-size: 30px;
+    top: 3.5vh;
+    right: 3%;
+  }
+  .nav-menu {
+    top: 3.5vh;
+    right: 0;
+    height: 40vh;
+    width: 35%;
+    background-color: #ecf8fb;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-links {
+    margin-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-top: 30px;
+  }
 }
 @media screen and (max-width: 320px) {
   .nav-bar {
