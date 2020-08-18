@@ -105,11 +105,23 @@ body {
   width: 50%;
   height: 50vh;
 }
+.skills-section h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.skill {
+  width: 100%;
+  display: flex;
+}
 .skill-1,
 .skill-2,
 .skill-3,
-.skill-4 .skill-5 .skill-6 .skill-7 .skill-8 {
+.skill-4,
+.skill-5,
+.skill-6,
+.skill-7,
+.skill-8 {
   width: 100%;
+  margin-top: 5px;
 }
 .skill-1-box,
 .skill-2-box,
@@ -120,10 +132,11 @@ body {
 .skill-7-box,
 .skill-8-box {
   width: 100%;
-  height: 15px;
+  height: 10px;
   background-color: #ecf8fb;
   border: solid #999 1px;
 }
+
 .skill-1-gauge,
 .skill-2-gauge,
 .skill-3-gauge,
@@ -132,12 +145,42 @@ body {
 .skill-6-gauge,
 .skill-7-gauge,
 .skill-8-gauge {
-  width: 90%;
   background-color: #0424d9;
-  height: 15px;
+  height: 10px;
   position: relative;
-  top: -17px;
+  top: -12px;
   border: solid #999 1px;
+}
+.skill-1-gauge {
+  width: 90%;
+}
+.skill-2-gauge {
+  width: 80%;
+}
+.skill-3-gauge {
+  width: 60%;
+}
+.skill-4-gauge {
+  width: 70%;
+}
+.skill-5-gauge {
+  width: 60%;
+}
+.skill-6-gauge {
+  width: 90%;
+}
+.skill-7-gauge {
+  width: 60%;
+}
+.skill-8-gauge {
+  width: 70%;
+}
+#percentage {
+  text-align: right;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  color: dodgerblue;
 }
 .footer {
   font-family: "Work Sans", sans-serif;
@@ -690,13 +733,18 @@ body {
     width: 90%;
   }
   .about-content {
-    height: 88vh;
+    height: 90vh;
   }
   .about-content h1 {
     font-size: 30px;
   }
   .about-content p {
-    margin-top: 10px;
     font-size: 13px;
+  }
+  .skills-section h3 {
+    margin: 10px 0 10px 0;
+  }
+  #percentage {
+    font-size: 10px;
   }
 }
