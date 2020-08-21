@@ -413,6 +413,62 @@ body {
   .link-container {
     width: 90%;
   }
+  .about-content {
+    height: 92vh;
+  }
+  .about-content h1 {
+    font-size: 35px;
+    padding: 40px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 80%;
+  }
+  .skills-section {
+    width: 45%;
+    margin-left: 5vw;
+  }
+  .skills-section h3 {
+    margin: 120px 0 40px 0;
+    font-size: 30px;
+  }
+  #skill {
+    font-size: 25px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 35px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -37px;
+    height: 35px;
+  }
+  #percentage {
+    font-size: 30px;
+  }
+  .footer p {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .nav-bar {
@@ -454,23 +510,79 @@ body {
   .link-container {
     width: 90%;
   }
+  .about-content {
+    height: 92vh;
+  }
+  .about-content h1 {
+    font-size: 35px;
+    padding: 40px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 80%;
+  }
+  .skills-section {
+    width: 45%;
+    margin-left: 5vw;
+  }
+  .skills-section h3 {
+    margin: 120px 0 40px 0;
+    font-size: 30px;
+  }
+  #skill {
+    font-size: 25px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 35px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -37px;
+    height: 35px;
+  }
+  #percentage {
+    font-size: 30px;
+  }
+  .footer p {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 1023px) {
   .nav-bar {
-    height: 12vh;
+    height: 10vh;
   }
   .brand {
-    height: 12vh;
-    width: 30%;
+    height: 10vh;
+    width: 25%;
   }
   .burger {
     font-size: 30px;
-    top: 3.5vh;
+    top: 2vh;
     right: 3%;
     color: #02178c;
   }
   .nav-menu {
-    top: 7vh;
+    top: 5vh;
     right: 0;
     height: 5vh;
     width: 50%;
@@ -494,15 +606,71 @@ body {
   }
   .link-container {
     width: 90%;
+  }
+  .about-content {
+    height: 90vh;
+  }
+  .about-content h1 {
+    font-size: 30px;
+    padding: 40px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 80%;
+  }
+  .skills-section {
+    width: 45%;
+    margin-left: 5vw;
+  }
+  .skills-section h3 {
+    margin: 120px 0 40px 0;
+    font-size: 30px;
+  }
+  #skill {
+    font-size: 25px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 30px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -32px;
+    height: 30px;
+  }
+  #percentage {
+    font-size: 25px;
+  }
+  .footer p {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 799px) {
   .nav-bar {
-    height: 12vh;
+    height: 10vh;
   }
   .brand {
-    height: 12vh;
-    width: 30%;
+    height: 10vh;
+    width: 25%;
   }
   .burger {
     font-size: 30px;
@@ -511,7 +679,7 @@ body {
     color: #02178c;
   }
   .nav-menu {
-    top: 7vh;
+    top: 5vh;
     right: 0;
     height: 5vh;
     width: 50%;
@@ -527,7 +695,7 @@ body {
     color: #ecf8fb;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text-heading {
     font-size: 20px;
@@ -535,6 +703,62 @@ body {
   }
   .link-container {
     width: 90%;
+  }
+  .about-content {
+    height: 90vh;
+  }
+  .about-content h1 {
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 80%;
+  }
+  .skills-section {
+    width: 45%;
+    margin-left: 5vw;
+  }
+  .skills-section h3 {
+    margin: 40px 0 40px 0;
+    font-size: 20px;
+  }
+  #skill {
+    font-size: 17px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 25px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -27px;
+    height: 25px;
+  }
+  #percentage {
+    font-size: 20px;
+  }
+  .footer p {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 767px) {
