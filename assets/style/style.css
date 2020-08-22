@@ -134,7 +134,7 @@ body {
   width: 100%;
   height: 10px;
   background-color: #ecf8fb;
-  border: solid #999 1px;
+  border: solid #01040d 1px;
 }
 
 .skill-1-gauge,
@@ -149,7 +149,7 @@ body {
   height: 10px;
   position: relative;
   top: -12px;
-  border: solid #999 1px;
+  border: solid #01040d 1px;
 }
 .skill-1-gauge {
   width: 90%;
@@ -197,23 +197,23 @@ body {
 }
 @media screen and (min-width: 2560px) {
   .nav-bar {
-    height: 9vh;
+    height: 10vh;
   }
   .brand {
-    height: 9vh;
-    width: 12%;
+    height: 10vh;
+    width: 10%;
   }
   .burger {
-    font-size: 30px;
+    font-size: 1px;
     top: 1vh;
     right: 3%;
     color: #02178c;
   }
   .nav-menu {
-    top: 4vh;
+    top: 5vh;
     right: 0;
-    height: 4vh;
-    width: 35%;
+    height: 5vh;
+    width: 40%;
     background-color: #02178c;
     display: flex;
     flex-direction: row;
@@ -222,7 +222,7 @@ body {
   }
   .menu-links {
     margin-right: 150px;
-    font-size: 25px;
+    font-size: 30px;
     color: #ecf8fb;
   }
   .home-content {
@@ -242,14 +242,70 @@ body {
   .link-container {
     width: 90%;
   }
+  .about-content {
+    height: 100vh;
+  }
+  .about-content h1 {
+    font-size: 40px;
+    padding: 60px 0 40px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 50%;
+  }
+  .skills-section {
+    width: 40%;
+    margin-left: 10vw;
+  }
+  .skills-section h3 {
+    margin: 100px 0 60px 0;
+    font-size: 35px;
+  }
+  #skill {
+    font-size: 25px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 30px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -32px;
+    height: 30px;
+  }
+  #percentage {
+    font-size: 25px;
+  }
+  .footer p {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
   .nav-bar {
-    height: 9vh;
+    height: 10vh;
   }
   .brand {
-    height: 9vh;
-    width: 12%;
+    height: 10vh;
+    width: 10%;
   }
   .burger {
     font-size: 30px;
@@ -258,7 +314,7 @@ body {
     color: #02178c;
   }
   .nav-menu {
-    top: 3vh;
+    top: 5vh;
     right: 0;
     height: 5vh;
     width: 35%;
@@ -290,14 +346,70 @@ body {
   .link-container {
     width: 90%;
   }
+  .about-content {
+    height: 100vh;
+  }
+  .about-content h1 {
+    font-size: 35px;
+    padding: 40px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 60%;
+  }
+  .skills-section {
+    width: 35%;
+    margin-left: 15vw;
+  }
+  .skills-section h3 {
+    margin: 60px 0 40px 0;
+    font-size: 30px;
+  }
+  #skill {
+    font-size: 20px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 25px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -27px;
+    height: 25px;
+  }
+  #percentage {
+    font-size: 20px;
+  }
+  .footer p {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 1600px) and (max-width: 1919px) {
   .nav-bar {
-    height: 8vh;
+    height: 10vh;
   }
   .brand {
-    height: 8vh;
-    width: 13%;
+    height: 10vh;
+    width: 10%;
   }
   .burger {
     font-size: 30px;
@@ -306,7 +418,7 @@ body {
     color: #02178c;
   }
   .nav-menu {
-    top: 3vh;
+    top: 5vh;
     right: 0;
     height: 5vh;
     width: 35%;
@@ -331,14 +443,70 @@ body {
   .link-container {
     width: 90%;
   }
+  .about-content {
+    height: 110vh;
+  }
+  .about-content h1 {
+    font-size: 30px;
+    padding: 40px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 50%;
+  }
+  .skills-section {
+    width: 35%;
+    margin-left: 15vw;
+  }
+  .skills-section h3 {
+    margin: 60px 0 40px 0;
+    font-size: 25px;
+  }
+  #skill {
+    font-size: 20px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 20px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -22px;
+    height: 20px;
+  }
+  #percentage {
+    font-size: 18px;
+  }
+  .footer p {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1366px) and (max-width: 1599px) {
   .nav-bar {
-    height: 12vh;
+    height: 10vh;
   }
   .brand {
-    height: 12vh;
-    width: 15%;
+    height: 10vh;
+    width: 10%;
   }
   .burger {
     font-size: 30px;
@@ -347,7 +515,7 @@ body {
     color: #02178c;
   }
   .nav-menu {
-    top: 7vh;
+    top: 5vh;
     right: 0;
     height: 5vh;
     width: 35%;
@@ -359,11 +527,11 @@ body {
   }
   .menu-links {
     margin-right: 60px;
-    font-size: 20px;
+    font-size: 15px;
     color: #ecf8fb;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text-heading {
     font-size: 20px;
@@ -371,6 +539,62 @@ body {
   }
   .link-container {
     width: 90%;
+  }
+  .about-content {
+    height: 110vh;
+  }
+  .about-content h1 {
+    font-size: 25px;
+    padding: 20px 0 20px 0;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+  .about-text p {
+    width: 60%;
+  }
+  .skills-section {
+    width: 35%;
+    margin-left: 15vw;
+  }
+  .skills-section h3 {
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+  }
+  #skill {
+    font-size: 15px;
+  }
+  .skill-1-box,
+  .skill-2-box,
+  .skill-3-box,
+  .skill-4-box,
+  .skill-5-box,
+  .skill-6-box,
+  .skill-7-box,
+  .skill-8-box {
+    height: 15px;
+  }
+
+  .skill-1-gauge,
+  .skill-2-gauge,
+  .skill-3-gauge,
+  .skill-4-gauge,
+  .skill-5-gauge,
+  .skill-6-gauge,
+  .skill-7-gauge,
+  .skill-8-gauge {
+    top: -17px;
+    height: 15px;
+  }
+  #percentage {
+    font-size: 13px;
+  }
+  .footer p {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1365px) {
@@ -400,7 +624,7 @@ body {
   }
   .menu-links {
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 15px;
     color: #ecf8fb;
   }
   .home-content {
@@ -414,11 +638,11 @@ body {
     width: 90%;
   }
   .about-content {
-    height: 92vh;
+    height: 100vh;
   }
   .about-content h1 {
-    font-size: 35px;
-    padding: 40px 0 20px 0;
+    font-size: 25px;
+    padding: 20px 0 20px 0;
   }
   .about-text {
     display: flex;
@@ -428,18 +652,18 @@ body {
     text-align: center;
   }
   .about-text p {
-    width: 80%;
+    width: 60%;
   }
   .skills-section {
-    width: 45%;
-    margin-left: 5vw;
+    width: 35%;
+    margin-left: 15vw;
   }
   .skills-section h3 {
-    margin: 120px 0 40px 0;
-    font-size: 30px;
+    margin: 40px 0 20px 0;
+    font-size: 20px;
   }
   #skill {
-    font-size: 25px;
+    font-size: 15px;
   }
   .skill-1-box,
   .skill-2-box,
@@ -449,7 +673,7 @@ body {
   .skill-6-box,
   .skill-7-box,
   .skill-8-box {
-    height: 35px;
+    height: 15px;
   }
 
   .skill-1-gauge,
@@ -460,14 +684,14 @@ body {
   .skill-6-gauge,
   .skill-7-gauge,
   .skill-8-gauge {
-    top: -37px;
-    height: 35px;
+    top: -17px;
+    height: 15px;
   }
   #percentage {
-    font-size: 30px;
+    font-size: 13px;
   }
   .footer p {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
