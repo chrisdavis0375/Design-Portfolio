@@ -9,8 +9,12 @@ body {
   background-color: #02178c;
 }
 
+.home-nav {
+  background-color: transparent;
+  width: 100%;
+}
 .nav-bar {
-  background-color: #02178c;
+  background-color: transparent;
   width: 100%;
   border-bottom: solid #999 1px;
 }
@@ -58,7 +62,7 @@ body {
   color: #ecf8fb;
   text-align: center;
   position: absolute;
-  top: 70%;
+  top: 70vh;
   width: 100%;
 }
 
@@ -501,9 +505,6 @@ body {
   }
 }
 @media screen and (min-width: 1366px) and (max-width: 1599px) {
-  .nav-bar {
-    height: 10vh;
-  }
   .brand {
     height: 10vh;
     width: 10%;
