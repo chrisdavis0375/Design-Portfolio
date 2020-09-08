@@ -16,7 +16,7 @@ body {
 .nav-bar {
   background-color: transparent;
   width: 100%;
-  border-bottom: solid #999 1px;
+  border-bottom: solid #000 1px;
 }
 .burger {
   position: absolute;
@@ -88,7 +88,7 @@ body {
 
 .about-content {
   width: 100%;
-  background-image: url("../images/about-profile.png");
+  background-image: url("../images/color-profile.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -100,7 +100,7 @@ body {
 }
 .about-content p {
   font-family: "Work Sans", sans-serif;
-  color: #01040d;
+  color: #ecf8fb;
   width: 100%;
   text-align: center;
 }
@@ -231,16 +231,20 @@ body {
   .home-content {
     height: 92vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 35px;
-    width: 30%;
+    font-size: 40px;
+    width: 40%;
   }
   .home-text-link {
     margin-top: 10px;
     font-size: 35px;
   }
   .home-text-link i {
-    font-size: 50px;
+    font-size: 45px;
+    margin-left: 20px;
   }
   .link-container {
     width: 90%;
@@ -335,16 +339,20 @@ body {
   .home-content {
     height: 92vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 25px;
-    width: 30%;
+    font-size: 30px;
+    width: 40%;
   }
   .home-text-link {
     margin-top: 10px;
     font-size: 25px;
   }
   .home-text-link i {
-    font-size: 40px;
+    font-size: 35px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -432,16 +440,27 @@ body {
     justify-content: center;
   }
   .menu-links {
-    margin-right: 30px;
+    margin-right: 60px;
     font-size: 20px;
     color: #ecf8fb;
   }
   .home-content {
     height: 92vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
+    font-size: 25px;
+    width: 40%;
+  }
+  .home-text-link {
+    margin-top: 10px;
     font-size: 20px;
-    width: 35%;
+  }
+  .home-text-link i {
+    font-size: 30px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -533,9 +552,20 @@ body {
   .home-content {
     height: 90vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
+    font-size: 25px;
+    width: 40%;
+  }
+  .home-text-link {
+    margin-top: 10px;
     font-size: 20px;
-    width: 35%;
+  }
+  .home-text-link i {
+    font-size: 30px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -630,9 +660,20 @@ body {
   .home-content {
     height: 92vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
+    font-size: 25px;
+    width: 50%;
+  }
+  .home-text-link {
+    margin-top: 10px;
     font-size: 20px;
-    width: 40%;
+  }
+  .home-text-link i {
+    font-size: 30px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -727,9 +768,20 @@ body {
   .home-content {
     height: 92vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 20px;
-    width: 55%;
+    font-size: 30px;
+    width: 70%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .home-text-link i {
+    font-size: 35px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -824,9 +876,20 @@ body {
   .home-content {
     height: 88vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 20px;
+    font-size: 25px;
     width: 70%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .home-text-link i {
+    font-size: 35px;
+    margin-left: 15px;
   }
   .link-container {
     width: 90%;
@@ -921,9 +984,20 @@ body {
   .home-content {
     height: 90vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
     font-size: 20px;
-    width: 70%;
+    width: 60%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .home-text-link i {
+    font-size: 30px;
+    margin-left: 10px;
   }
   .link-container {
     width: 90%;
@@ -994,7 +1068,7 @@ body {
     width: 30%;
   }
   .burger {
-    font-size: 30px;
+    font-size: 35px;
     top: 4.5vh;
     right: 3%;
   }
@@ -1016,9 +1090,20 @@ body {
   .home-content {
     height: 88vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
     font-size: 20px;
     width: 80%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .home-text-link i {
+    font-size: 30px;
+    margin-left: 10px;
   }
   .link-container {
     width: 90%;
@@ -1098,9 +1183,20 @@ body {
   .home-content {
     height: 88vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 20px;
-    width: 90%;
+    font-size: 15px;
+    width: 80%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .home-text-link i {
+    font-size: 25px;
+    margin-left: 10px;
   }
   .link-container {
     width: 90%;
@@ -1179,9 +1275,20 @@ body {
   .home-content {
     height: 88vh;
   }
+  .home-text {
+    top: 70vh;
+  }
   .home-text-heading {
-    font-size: 20px;
-    width: 90%;
+    font-size: 15px;
+    width: 80%;
+  }
+  .home-text-link {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .home-text-link i {
+    font-size: 25px;
+    margin-left: 10px;
   }
   .link-container {
     width: 90%;
@@ -1317,7 +1424,7 @@ body {
     font-size: 12px;
   }
   .footer p {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 374px) {
@@ -1352,7 +1459,7 @@ body {
     height: 90vh;
   }
   .home-text {
-    top: 80vh;
+    top: 70vh;
   }
   .home-text-heading {
     font-size: 15px;
