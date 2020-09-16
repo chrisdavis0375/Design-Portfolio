@@ -190,7 +190,7 @@ body {
 /*========================================================*/
 
 .projects-container {
-  height: 90vh;
+  height: 110vh;
   width: 100%;
   background-color: #000;
   display: flex;
@@ -231,7 +231,7 @@ body {
 }
 .project img {
   width: 80%;
-  height: 50%;
+  height: 70%;
   border: solid #000 1px;
 }
 .project-heading {
@@ -358,6 +358,42 @@ body {
   #percentage {
     font-size: 25px;
   }
+  .projects-container {
+    height: 150vh;
+  }
+  .projects-section {
+    height: 95%;
+    width: 95%;
+  }
+  .projects-section img {
+    width: 50%;
+    height: 60%;
+  }
+  .projects-section h1 {
+    font-size: 40px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 35px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 35px;
+    margin-top: 200px;
+  }
+  .project {
+    margin-top: 50px;
+  }
+  .project-heading {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 25px;
+  }
   .footer p {
     font-size: 25px;
   }
@@ -464,6 +500,42 @@ body {
     height: 25px;
   }
   #percentage {
+    font-size: 20px;
+  }
+  .projects-container {
+    height: 160vh;
+  }
+  .projects-section {
+    height: 95%;
+    width: 95%;
+  }
+  .projects-section img {
+    width: 50%;
+    height: 60%;
+  }
+  .projects-section h1 {
+    font-size: 35px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 30px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 30px;
+    margin-top: 160px;
+  }
+  .project {
+    margin-top: 60px;
+  }
+  .project-heading {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
     font-size: 20px;
   }
   .footer p {
@@ -574,6 +646,42 @@ body {
   #percentage {
     font-size: 18px;
   }
+  .projects-container {
+    height: 160vh;
+  }
+  .projects-section {
+    height: 95%;
+    width: 95%;
+  }
+  .projects-section img {
+    width: 50%;
+    height: 60%;
+  }
+  .projects-section h1 {
+    font-size: 30px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 25px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 25px;
+    margin-top: 120px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 20px;
   }
@@ -678,6 +786,42 @@ body {
   }
   #percentage {
     font-size: 13px;
+  }
+  .projects-container {
+    height: 160vh;
+  }
+  .projects-section {
+    height: 95%;
+    width: 95%;
+  }
+  .projects-section img {
+    width: 50%;
+    height: 60%;
+  }
+  .projects-section h1 {
+    font-size: 25px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 20px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .project-heading {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 20px;
   }
   .footer p {
     font-size: 15px;
@@ -787,6 +931,42 @@ body {
   #percentage {
     font-size: 13px;
   }
+  .projects-container {
+    height: 160vh;
+  }
+  .projects-section {
+    height: 95%;
+    width: 95%;
+  }
+  .projects-section img {
+    width: 50%;
+    height: 60%;
+  }
+  .projects-section h1 {
+    font-size: 35px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 20px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .project {
+    margin-top: 20px;
+  }
+  .project-heading {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 15px;
   }
@@ -895,6 +1075,41 @@ body {
   #percentage {
     font-size: 30px;
   }
+  .projects-container {
+    height: 100%;
+  }
+  .projects-section {
+    height: 95%;
+    width: 90%;
+  }
+  .projects-section img {
+    width: 60%;
+  }
+  .projects-section h1 {
+    font-size: 35px;
+    margin: 40px 0 30px 0;
+  }
+  .projects-heading-text {
+    font-size: 20px;
+  }
+  .projects-heading-text p {
+    width: 60%;
+  }
+  .projects-toggle {
+    font-size: 25px;
+    margin-top: 100px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 25px;
   }
@@ -908,7 +1123,7 @@ body {
     width: 25%;
   }
   .burger {
-    font-size: 30px;
+    font-size: 5px;
     top: 2vh;
     right: 3%;
     color: #02178c;
@@ -930,7 +1145,7 @@ body {
     color: #ecf8fb;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text {
     top: 70vh;
@@ -1003,6 +1218,41 @@ body {
   #percentage {
     font-size: 25px;
   }
+  .projects-container {
+    height: 100%;
+  }
+  .projects-section {
+    height: 95%;
+    width: 90%;
+  }
+  .projects-section img {
+    width: 60%;
+  }
+  .projects-section h1 {
+    font-size: 30px;
+    margin: 30px 0 20px 0;
+  }
+  .projects-heading-text {
+    font-size: 15px;
+  }
+  .projects-heading-text p {
+    width: 80%;
+  }
+  .projects-toggle {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 15px;
+  }
   .footer p {
     font-size: 20px;
   }
@@ -1013,7 +1263,7 @@ body {
   }
   .brand {
     height: 10vh;
-    width: 25%;
+    width: 20%;
   }
   .burger {
     font-size: 30px;
@@ -1111,25 +1361,60 @@ body {
   #percentage {
     font-size: 20px;
   }
+  .projects-container {
+    height: 100%;
+  }
+  .projects-section {
+    height: 95%;
+    width: 90%;
+  }
+  .projects-section img {
+    width: 60%;
+  }
+  .projects-section h1 {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+  }
+  .projects-heading-text {
+    font-size: 15px;
+  }
+  .projects-heading-text p {
+    width: 80%;
+  }
+  .projects-toggle {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 15px;
+  }
   .footer p {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 767px) {
   .nav-bar {
-    height: 12vh;
+    height: 10vh;
   }
   .brand {
-    height: 12vh;
-    width: 30%;
+    height: 10vh;
+    width: 20%;
   }
   .burger {
     font-size: 35px;
-    top: 4.5vh;
+    top: 3vh;
     right: 3%;
   }
   .nav-menu {
-    top: 3.5vh;
+    top: 3vh;
     right: 0;
     height: 35vh;
     width: 35%;
@@ -1144,7 +1429,7 @@ body {
     padding-top: 40px;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text {
     top: 70vh;
@@ -1207,18 +1492,47 @@ body {
   #percentage {
     font-size: 20px;
   }
+  .projects-section {
+    height: 95%;
+    width: 90%;
+  }
+  .projects-section h1 {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+  }
+  .projects-heading-text {
+    font-size: 15px;
+  }
+  .projects-heading-text p {
+    width: 80%;
+  }
+  .projects-toggle {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 599px) {
   .nav-bar {
-    height: 12vh;
+    height: 10vh;
   }
   .brand {
-    height: 12vh;
-    width: 30%;
+    height: 10vh;
+    width: 20%;
   }
   .burger {
     font-size: 30px;
-    top: 4.5vh;
+    top: 3vh;
     right: 3%;
   }
   .nav-menu {
@@ -1299,6 +1613,35 @@ body {
   #percentage {
     font-size: 16px;
   }
+  .projects-section {
+    height: 95%;
+    width: 90%;
+  }
+  .projects-section h1 {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+  }
+  .projects-heading-text {
+    font-size: 15px;
+  }
+  .projects-heading-text p {
+    width: 80%;
+  }
+  .projects-toggle {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 40px;
+  }
+  .project-heading {
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+  }
+  .project-text {
+    width: 80%;
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 412px) and (max-width: 479px) {
   .nav-bar {
@@ -1310,7 +1653,7 @@ body {
   }
   .burger {
     font-size: 30px;
-    top: 4vh;
+    top: 3vh;
     right: 3%;
   }
   .nav-menu {
@@ -1329,7 +1672,7 @@ body {
     padding-top: 40px;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text {
     top: 70vh;
@@ -1403,7 +1746,10 @@ body {
   }
   .projects-toggle {
     font-size: 15px;
-    margin: 40px 0 20px 0;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 40px;
   }
   .project-heading {
     font-size: 15px;
@@ -1411,7 +1757,7 @@ body {
   }
   .project-text {
     width: 80%;
-    font-size: 10px;
+    font-size: 15px;
   }
   .footer p {
     font-size: 12px;
@@ -1446,7 +1792,7 @@ body {
     padding-top: 40px;
   }
   .home-content {
-    height: 88vh;
+    height: 90vh;
   }
   .home-text {
     top: 75vh;
@@ -1524,7 +1870,10 @@ body {
   }
   .projects-toggle {
     font-size: 15px;
-    margin: 40px 0 20px 0;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 20px;
   }
   .project-heading {
     font-size: 15px;
@@ -1656,7 +2005,10 @@ body {
   }
   .projects-toggle {
     font-size: 15px;
-    margin: 40px 0 20px 0;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 20px;
   }
   .project-heading {
     font-size: 15px;
@@ -1765,7 +2117,10 @@ body {
     width: 80%;
   }
   .projects-toggle {
-    margin: 40px 0 20px 0;
+    margin-top: 40px;
+  }
+  .project {
+    margin-top: 20px;
   }
   .project-heading {
     font-size: 15px;
