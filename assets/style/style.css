@@ -291,19 +291,22 @@ body {
 }
 .box {
   background-color: #0424d9;
+  font-family: "Work Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  border: solid #000 1px;
 }
 .form-container {
-  width: 70%;
-  margin-left: 15%;
+  margin-left: 12.5%;
   background-color: #0424d9;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+  border: solid #000 1px;
 }
 .footer {
   font-family: "Work Sans", sans-serif;
@@ -1947,6 +1950,76 @@ body {
     width: 80%;
     font-size: 10px;
   }
+  .contact-content {
+    height: 150vh;
+  }
+  .contact-header-container h1 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 75px;
+    height: 75px;
+  }
+  .contact-name-heading {
+    margin-top: 50px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 40vh;
+  }
+  .box {
+    height: 45%;
+    width: 45%;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .box i {
+    font-size: 25px;
+  }
+  .email-text {
+    font-size: 12px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 55vh;
+    width: 75%;
+    padding-top: 5%;
+    margin-top: 20px;
+  }
+  .form-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form-container input {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 30%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 15%;
+    margin: 10px 0 10px 0;
+  }
 }
 @media screen and (min-width: 321px) and (max-width: 374px) {
   .nav-bar {
@@ -2081,6 +2154,76 @@ body {
   .project-text {
     width: 80%;
     font-size: 10px;
+  }
+  .contact-content {
+    height: 150vh;
+  }
+  .contact-header-container h1 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 75px;
+    height: 75px;
+  }
+  .contact-name-heading {
+    margin-top: 50px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 40vh;
+  }
+  .box {
+    height: 45%;
+    width: 45%;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .box i {
+    font-size: 25px;
+  }
+  .email-text {
+    font-size: 12px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 55vh;
+    width: 75%;
+    padding-top: 5%;
+    margin-top: 20px;
+  }
+  .form-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form-container input {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 30%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 15%;
+    margin: 10px 0 10px 0;
   }
 }
 @media screen and (max-width: 320px) {
@@ -2220,9 +2363,9 @@ body {
   }
   .contact-box-container {
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 10%;
     height: 40vh;
   }
   .box {
@@ -2241,18 +2384,26 @@ body {
     word-wrap: break-word;
   }
   .form-container {
-    height: 50vh;
-    padding-top: 10%;
+    height: 55vh;
+    width: 75%;
+    padding-top: 5%;
     margin-top: 20px;
   }
   .form-container label {
     font-size: 20px;
+    margin-bottom: 10px;
   }
   .form-container input {
     width: 80%;
+    margin-bottom: 10px;
   }
   .form-container textarea {
     width: 80%;
     height: 30%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 15%;
+    margin: 10px 0 10px 0;
   }
 }
