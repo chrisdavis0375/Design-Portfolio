@@ -265,7 +265,7 @@ body {
   height: 50px;
   border-radius: 100px;
   position: absolute;
-  top: 28%;
+  top: 28vh;
 }
 .contact-content {
   background-color: #021059;
@@ -461,6 +461,90 @@ body {
     width: 80%;
     font-size: 25px;
   }
+  .contact-content {
+    height: 140vh;
+  }
+  .contact-header-container {
+    height: 25vh;
+  }
+  .contact-header-container h1 {
+    font-size: 45px;
+    margin: 40px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 35px;
+    width: 40%;
+  }
+  .contact-header-container img {
+    width: 150px;
+    height: 150px;
+    top: 29vh;
+  }
+  .contact-name-heading {
+    margin-top: 90px;
+  }
+  .contact-name-heading h1 {
+    font-size: 35px;
+  }
+  .contact-name-heading h2 {
+    font-size: 30px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    margin: 40px 0 0 19%;
+    position: absolute;
+    top: 48vh;
+    left: 0;
+  }
+  .box {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+  .box i {
+    font-size: 85px;
+  }
+  .email-text {
+    font-size: 30px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 82vh;
+    width: 25%;
+    padding-top: 1%;
+    margin: 40px 25% 0 0;
+    position: absolute;
+    top: 48vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 45px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 30px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 90px;
+    margin: 80px 0 20px 0;
+    font-size: 35px;
+  }
   .footer p {
     font-size: 25px;
   }
@@ -604,6 +688,90 @@ body {
   .project-text {
     width: 80%;
     font-size: 20px;
+  }
+  .contact-content {
+    height: 140vh;
+  }
+  .contact-header-container {
+    height: 25vh;
+  }
+  .contact-header-container h1 {
+    font-size: 35px;
+    margin: 40px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 25px;
+    width: 40%;
+  }
+  .contact-header-container img {
+    width: 125px;
+    height: 125px;
+    top: 28.5vh;
+  }
+  .contact-name-heading {
+    margin-top: 90px;
+  }
+  .contact-name-heading h1 {
+    font-size: 25px;
+  }
+  .contact-name-heading h2 {
+    font-size: 20px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    margin: 40px 0 0 19%;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+  }
+  .box {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .box i {
+    font-size: 70px;
+  }
+  .email-text {
+    font-size: 23px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 81.75vh;
+    width: 25%;
+    padding-top: 1%;
+    margin: 40px 25% 0 0;
+    position: absolute;
+    top: 50vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 35px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 70px;
+    margin: 40px 0 20px 0;
+    font-size: 25px;
   }
   .footer p {
     font-size: 25px;
@@ -749,6 +917,90 @@ body {
     width: 80%;
     font-size: 20px;
   }
+  .contact-content {
+    height: 140vh;
+  }
+  .contact-header-container {
+    height: 25vh;
+  }
+  .contact-header-container h1 {
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 20px;
+    width: 40%;
+  }
+  .contact-header-container img {
+    width: 100px;
+    height: 100px;
+    top: 28.5vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    margin: 40px 0 0 19%;
+    position: absolute;
+    top: 45vh;
+    left: 0;
+  }
+  .box {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .box i {
+    font-size: 50px;
+  }
+  .email-text {
+    font-size: 15px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 81.25vh;
+    width: 25%;
+    padding-top: 1%;
+    margin: 40px 25% 0 0;
+    position: absolute;
+    top: 45vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 20px;
   }
@@ -888,6 +1140,90 @@ body {
   }
   .project-text {
     width: 80%;
+    font-size: 20px;
+  }
+  .contact-content {
+    height: 140vh;
+  }
+  .contact-header-container {
+    height: 25vh;
+  }
+  .contact-header-container h1 {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 20px;
+    width: 40%;
+  }
+  .contact-header-container img {
+    width: 100px;
+    height: 100px;
+    top: 27.5vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    margin: 40px 0 0 19%;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+  }
+  .box {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .box i {
+    font-size: 50px;
+  }
+  .email-text {
+    font-size: 15px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 80.5vh;
+    width: 25%;
+    padding-top: 1%;
+    margin: 40px 25% 0 0;
+    position: absolute;
+    top: 50vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 30px 0 20px 0;
     font-size: 20px;
   }
   .footer p {
@@ -1034,6 +1370,90 @@ body {
     width: 80%;
     font-size: 20px;
   }
+  .contact-content {
+    height: 140vh;
+  }
+  .contact-header-container {
+    height: 25vh;
+  }
+  .contact-header-container h1 {
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 25px;
+    width: 60%;
+  }
+  .contact-header-container img {
+    width: 100px;
+    height: 100px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 30px;
+  }
+  .contact-name-heading h2 {
+    font-size: 25px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 40%;
+    height: 85vh;
+    margin: 40px 0 0 19%;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+  }
+  .box {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .box i {
+    font-size: 35px;
+  }
+  .email-text {
+    font-size: 25px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 81vh;
+    width: 25%;
+    padding-top: 1%;
+    margin: 40px 25% 0 0;
+    position: absolute;
+    top: 50vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 30px 0 20px 0;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 15px;
   }
@@ -1175,6 +1595,90 @@ body {
   }
   .project-text {
     width: 80%;
+    font-size: 20px;
+  }
+  .contact-content {
+    height: 100vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+  }
+  .contact-header-container p {
+    font-size: 25px;
+    width: 70%;
+  }
+  .contact-header-container img {
+    width: 150px;
+    height: 150px;
+    top: 22.5vh;
+  }
+  .contact-name-heading {
+    margin-top: 90px;
+  }
+  .contact-name-heading h1 {
+    font-size: 30px;
+  }
+  .contact-name-heading h2 {
+    font-size: 25px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 45%;
+    height: 55vh;
+    margin: 40px 0 0 6%;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+  }
+  .box {
+    height: 45%;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .box i {
+    font-size: 35px;
+  }
+  .email-text {
+    font-size: 27px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 50vh;
+    width: 40%;
+    padding-top: 5%;
+    margin: 40px 9% 0 0;
+    position: absolute;
+    top: 40vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 30px 0 20px 0;
     font-size: 20px;
   }
   .footer p {
@@ -1320,6 +1824,90 @@ body {
     width: 80%;
     font-size: 15px;
   }
+  .contact-content {
+    height: 100vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+  }
+  .contact-header-container p {
+    font-size: 25px;
+    width: 70%;
+  }
+  .contact-header-container img {
+    width: 125px;
+    height: 125px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 30px;
+  }
+  .contact-name-heading h2 {
+    font-size: 25px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 45%;
+    height: 54.5vh;
+    margin: 40px 0 0 6%;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+  }
+  .box {
+    height: 45%;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .box i {
+    font-size: 35px;
+  }
+  .email-text {
+    font-size: 27px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 50vh;
+    width: 40%;
+    padding-top: 5%;
+    margin: 40px 9% 0 0;
+    position: absolute;
+    top: 40vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+    font-size: 20px;
+  }
+  .form-container button {
+    width: 40%;
+    height: 40px;
+    margin: 30px 0 20px 0;
+    font-size: 20px;
+  }
   .footer p {
     font-size: 20px;
   }
@@ -1463,6 +2051,87 @@ body {
     width: 80%;
     font-size: 15px;
   }
+  .contact-content {
+    height: 100vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+  }
+  .contact-header-container p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 100px;
+    height: 100px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 25px;
+  }
+  .contact-name-heading h2 {
+    font-size: 20px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 45%;
+    height: 60vh;
+    margin: 40px 0 0 6%;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+  }
+  .box {
+    height: 45%;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .box i {
+    font-size: 30px;
+  }
+  .email-text {
+    font-size: 20px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 55vh;
+    width: 40%;
+    padding-top: 5%;
+    margin: 40px 9% 0 0;
+    position: absolute;
+    top: 40vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 40px;
+    margin: 20px 0 20px 0;
+  }
   .footer p {
     font-size: 20px;
   }
@@ -1588,6 +2257,87 @@ body {
     width: 80%;
     font-size: 15px;
   }
+  .contact-content {
+    height: 100vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+  }
+  .contact-header-container p {
+    font-size: 20px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 100px;
+    height: 100px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 60px;
+  }
+  .contact-name-heading h1 {
+    font-size: 25px;
+  }
+  .contact-name-heading h2 {
+    font-size: 20px;
+  }
+  .contact-box-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 45%;
+    height: 60vh;
+    margin: 40px 0 0 6%;
+    position: absolute;
+    top: 40vh;
+    left: 0;
+  }
+  .box {
+    height: 45%;
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .box i {
+    font-size: 30px;
+  }
+  .email-text {
+    font-size: 20px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 55vh;
+    width: 40%;
+    padding-top: 5%;
+    margin: 40px 9% 0 0;
+    position: absolute;
+    top: 40vh;
+    right: 0;
+  }
+  .form-container label {
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+  .form-container input {
+    width: 80%;
+    height: 8%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 20%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 40px;
+    margin: 20px 0 20px 0;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 599px) {
   .nav-bar {
@@ -1709,6 +2459,80 @@ body {
     width: 80%;
     font-size: 15px;
   }
+  .contact-content {
+    height: 150vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 75px;
+    height: 75px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 50px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 40vh;
+  }
+  .box {
+    height: 45%;
+    width: 45%;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .box i {
+    font-size: 25px;
+  }
+  .email-text {
+    font-size: 12px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 60vh;
+    width: 75%;
+    padding-top: 5%;
+    margin-top: 20px;
+  }
+  .form-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form-container input {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 30%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 20px 0 20px 0;
+  }
 }
 @media screen and (min-width: 412px) and (max-width: 479px) {
   .nav-bar {
@@ -1825,6 +2649,80 @@ body {
   .project-text {
     width: 80%;
     font-size: 15px;
+  }
+  .contact-content {
+    height: 150vh;
+  }
+  .contact-header-container {
+    height: 20vh;
+  }
+  .contact-header-container h1 {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+  }
+  .contact-header-container p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .contact-header-container img {
+    width: 75px;
+    height: 75px;
+    top: 25vh;
+  }
+  .contact-name-heading {
+    margin-top: 50px;
+  }
+  .contact-name-heading h1 {
+    font-size: 20px;
+  }
+  .contact-name-heading h2 {
+    font-size: 15px;
+  }
+  .contact-box-container {
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    height: 40vh;
+  }
+  .box {
+    height: 45%;
+    width: 45%;
+    margin: 5px;
+    font-size: 15px;
+  }
+  .box i {
+    font-size: 25px;
+  }
+  .email-text {
+    font-size: 12px;
+    width: 80%;
+    height: 35%;
+    word-wrap: break-word;
+  }
+  .form-container {
+    height: 60vh;
+    width: 75%;
+    padding-top: 5%;
+    margin-top: 20px;
+  }
+  .form-container label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .form-container input {
+    width: 80%;
+    height: 10%;
+    margin-bottom: 10px;
+  }
+  .form-container textarea {
+    width: 80%;
+    height: 30%;
+  }
+  .form-container button {
+    width: 40%;
+    height: 50px;
+    margin: 20px 0 20px 0;
   }
   .footer p {
     font-size: 12px;
@@ -1953,6 +2851,9 @@ body {
   .contact-content {
     height: 150vh;
   }
+  .contact-header-container {
+    height: 20vh;
+  }
   .contact-header-container h1 {
     font-size: 20px;
     margin: 10px 0 10px 0;
@@ -1964,6 +2865,7 @@ body {
   .contact-header-container img {
     width: 75px;
     height: 75px;
+    top: 25vh;
   }
   .contact-name-heading {
     margin-top: 50px;
