@@ -16,3 +16,27 @@ window.onclick = function (event) {
     }
   }
 };
+
+// Form data submission
+$("#contactForm").on("submit", function (e) {
+  e.preventDefault();
+  var name = $("#inputName").val().trim(),
+    email = $("#inputEmail").val().trim(),
+    subject = $("#inputSubject").val().trim(),
+    message = $("#inputMessage").val().trim();
+
+  const data = {
+    name,
+    email,
+    subject,
+    message,
+  };
+
+  $.post("/send", data, function () {
+    console.log("Server received data");
+    $("#inputName").val("");
+    $("#inputEmail").val("");
+    $("#inputSubject").val("");
+    $("#inputMessage").val("");
+  });
+});

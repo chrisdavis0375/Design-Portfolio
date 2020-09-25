@@ -253,6 +253,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  color: #ecf8fb;
 }
 .contact-header-container h1 {
   font-family: "Montserrat", sans-serif;
@@ -276,6 +277,7 @@ body {
 .contact-name-heading {
   width: 100%;
   text-align: center;
+  color: #ecf8fb;
 }
 .contact-name-heading h1 {
   font-family: "Montserrat", sans-serif;
@@ -307,6 +309,7 @@ body {
   align-items: center;
   font-family: "Montserrat", sans-serif;
   border: solid #000 1px;
+  color: #ecf8fb;
 }
 .footer {
   font-family: "Work Sans", sans-serif;
