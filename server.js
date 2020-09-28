@@ -13,8 +13,8 @@ app.use(express.json());
 app.use("/assets", express.static(path.join(__dirname, "assets")));
 
 // ROUTES
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(__dirname, "/index.html"));
 });
 
 app.post("/send", function (req, res) {

@@ -204,6 +204,7 @@ body {
   width: 100%;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: #0424d9;
 }
 .projects-heading-text {
   width: 100%;
@@ -212,10 +213,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #021059;
 }
 .projects-toggle {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sites-toggle {
+  color: #0424d9;
 }
 .projects-toggle span {
   margin: 0 10px 0 10px;
@@ -237,9 +245,11 @@ body {
 .project-heading {
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  color: #02178c;
 }
 .project-text {
   font-family: "Work Sans", sans-serif;
+  color: #02178c;
 }
 
 /* Start of contact page */
@@ -254,6 +264,7 @@ body {
   align-items: center;
   text-align: center;
   color: #ecf8fb;
+  border-bottom: 2px solid #000;
 }
 .contact-header-container h1 {
   font-family: "Montserrat", sans-serif;
@@ -262,6 +273,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 .contact-header-container img {
+  border: 2px solid #000;
   width: 50px;
   height: 50px;
   border-radius: 100px;
@@ -290,6 +302,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  color: #ecf8fb;
 }
 .box {
   background-color: #0424d9;
@@ -310,6 +323,18 @@ body {
   font-family: "Montserrat", sans-serif;
   border: solid #000 1px;
   color: #ecf8fb;
+}
+.form-container button {
+  background-color: #021059;
+  color: #ecf8fb;
+  border: 1px solid #000;
+  transition: all 0.5s ease;
+}
+.form-container button:hover {
+  background-color: #ecf8fb;
+  color: #021059;
+  text-shadow: 50px #000;
+  border-radius: 20px;
 }
 .footer {
   font-family: "Work Sans", sans-serif;
