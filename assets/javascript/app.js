@@ -40,3 +40,5 @@ $("#contactForm").on("submit", function (e) {
     $("#inputMessage").val("");
   });
 });
+
+// Project and design toggler
