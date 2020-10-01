@@ -193,7 +193,7 @@ body {
   height: 110vh;
   width: 100%;
   background-color: #000;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -224,6 +224,9 @@ body {
 }
 .sites-toggle {
   color: #0424d9;
+}
+.sites-toggle:hover {
+  cursor: pointer;
 }
 .designs-toggle {
   color: #000;
@@ -257,7 +260,7 @@ body {
 .designs-container {
   width: 100%;
   text-align: center;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   background-color: #000;

@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="projects-container">
+    <div class="projects-container" id="projectsContainer">
       <div class="projects-section">
         <h1>Projects</h1>
         <div class="projects-heading-text">
@@ -38,9 +38,9 @@
           </p>
         </div>
         <div class="projects-toggle">
-          <p class="sites-toggle">Sites</p>
+          <p class="sites-toggle" onclick="siteToggle()">Sites</p>
           <span>|</span>
-          <p class="designs-toggle">Designs</p>
+          <p class="designs-toggle" onclick="designsToggle()">Designs</p>
         </div>
         <div class="project">
           <img src="../images/Royal-const.JPG" />
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="designs-container">
+    <div class="designs-container" id="designsContainer">
       <div class="designs-section">
         <h1>Projects</h1>
         <div class="projects-heading-text">
@@ -71,9 +71,17 @@
           </p>
         </div>
         <div class="projects-toggle">
-          <p class="sites-toggle">Sites</p>
+          <p id="siteToggle" class="sites-toggle" onclick="siteToggle()">
+            Sites
+          </p>
           <span>|</span>
-          <p class="designs-toggle">Designs</p>
+          <p
+            id="designsToggle"
+            class="designs-toggle"
+            onclick="designsToggle()"
+          >
+            Designs
+          </p>
         </div>
         <div class="design"><img src="../images/mars-composite.png" /></div>
         <div class="design">
