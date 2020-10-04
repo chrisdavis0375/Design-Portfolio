@@ -46,6 +46,7 @@ function siteToggle() {
   document.getElementById("projectsContainer").style.display = "flex";
   document.getElementById("siteToggle").style.color = "#0424d9";
   document.getElementById("designsToggle").style.color = "#000";
+  document.getElementById("designsContainer").style.display = "none";
 }
 function designsToggle() {
   document.getElementById("projectsContainer").style.display = "none";
