@@ -29,6 +29,7 @@ body {
   display: none;
   position: absolute;
   z-index: 1;
+  border: 1px solid #999;
 }
 .menu-links {
   text-decoration: none;
@@ -70,10 +71,36 @@ body {
   display: inline-block;
 }
 .home-text-link {
+  text-decoration: none;
+  color: #0424d9;
   width: 100%;
   text-align: center;
   font-size: 20px;
   font-family: "Work Sans", sans-serif;
+  transition: all 0.6s linear;
+  transition-duration: 0.3s;
+}
+.home-text-link:hover {
+  cursor: pointer;
+}
+.home-text-link:before {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  bottom: 20%;
+  left: 40%;
+  background-color: #fffafa;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.home-text-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 .home-text-link i {
   position: relative;
@@ -192,7 +219,7 @@ body {
 .projects-container {
   height: 110vh;
   width: 100%;
-  background-color: #000;
+  background-color: #01040d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -222,6 +249,9 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+.projects-toggle span {
+  position: absolute;
+}
 .sites-toggle {
   color: #0424d9;
 }
@@ -230,6 +260,8 @@ body {
 }
 .designs-toggle {
   color: #000;
+  position: relative;
+  right: -20px;
 }
 .designs-toggle:hover {
   cursor: pointer;
@@ -248,8 +280,8 @@ body {
 }
 .project img {
   width: 80%;
-  height: 70%;
-  border: solid #000 1px;
+  height: 100%;
+  border: 1px solid #021059;
 }
 .project-heading {
   width: 100%;
@@ -290,6 +322,7 @@ body {
 }
 .design img {
   height: 90%;
+  border: 1px solid #021059;
 }
 
 /* Start of contact page */
@@ -303,14 +336,15 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #ecf8fb;
   border-bottom: 2px solid #000;
 }
 .contact-header-container h1 {
   font-family: "Montserrat", sans-serif;
+  color: #01040d;
 }
 .contact-header-container p {
   font-family: "Work Sans", sans-serif;
+  color: #ecf8fb;
 }
 .contact-header-container img {
   border: 2px solid #000;
@@ -354,6 +388,9 @@ body {
   text-align: center;
   border: solid #000 1px;
 }
+.contact-tag {
+  color: #01040d;
+}
 .form-container {
   margin-left: 12.5%;
   background-color: #0424d9;
@@ -389,6 +426,9 @@ body {
 .footer p {
   color: #ecf8fb;
 }
+/* START OF MEDIA QUERIES*/
+/*===========================================================*/
+
 @media screen and (min-width: 2560px) {
   .nav-bar {
     height: 10vh;
@@ -413,6 +453,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 150px;
@@ -670,6 +711,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 100px;
@@ -927,6 +969,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 60px;
@@ -1181,6 +1224,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 60px;
@@ -1262,7 +1306,7 @@ body {
     font-size: 13px;
   }
   .projects-container {
-    height: 160vh;
+    height: 190vh;
   }
   .projects-section {
     height: 97%;
@@ -1438,6 +1482,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 30px;
@@ -1519,7 +1564,7 @@ body {
     font-size: 13px;
   }
   .projects-container {
-    height: 160vh;
+    height: 230vh;
   }
   .projects-section {
     height: 95%;
@@ -1527,7 +1572,7 @@ body {
   }
   .projects-section img {
     width: 50%;
-    height: 60%;
+    height: 70%;
   }
   .projects-section h1 {
     font-size: 35px;
@@ -1695,6 +1740,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 30px;
@@ -1950,6 +1996,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 30px;
@@ -2205,6 +2252,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border: 0px;
   }
   .menu-links {
     margin-right: 30px;
@@ -2449,8 +2497,8 @@ body {
   .nav-menu {
     top: 3vh;
     right: 0;
-    height: 35vh;
-    width: 35%;
+    height: 300px;
+    width: 200px;
     background-color: #ecf8fb;
     justify-content: center;
     align-items: center;
@@ -2542,6 +2590,9 @@ body {
   .projects-toggle {
     font-size: 20px;
     margin-top: 40px;
+  }
+  .projects-toggle span {
+    margin-left: 5px;
   }
   .project {
     margin-top: 40px;
@@ -2674,7 +2725,7 @@ body {
   }
   .burger {
     font-size: 30px;
-    top: 3vh;
+    top: 3.5vh;
     right: 3%;
   }
   .nav-menu {
@@ -2829,8 +2880,8 @@ body {
     font-size: 25px;
   }
   .email-text {
-    font-size: 12px;
-    width: 80%;
+    font-size: 15px;
+    width: 70%;
     height: 35%;
     word-wrap: break-word;
   }
@@ -2896,22 +2947,22 @@ body {
     width: 20%;
   }
   .burger {
-    font-size: 30px;
+    font-size: 25px;
     top: 3vh;
     right: 3%;
   }
   .nav-menu {
-    top: 3.5vh;
+    top: 3vh;
     right: 0;
-    height: 35vh;
-    width: 35%;
+    height: 220px;
+    width: 30%;
     background-color: #ecf8fb;
     justify-content: center;
     align-items: center;
   }
   .menu-links {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     padding-top: 40px;
   }
@@ -2979,7 +3030,7 @@ body {
     width: 90%;
   }
   .projects-section h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 20px 0 10px 0;
   }
   .projects-heading-text {
@@ -3049,9 +3100,12 @@ body {
   }
   .email-text {
     font-size: 12px;
-    width: 80%;
+    width: 70%;
     height: 35%;
     word-wrap: break-word;
+  }
+  .media-text {
+    font-size: 12px;
   }
   .form-container {
     height: 60vh;
@@ -3118,14 +3172,14 @@ body {
     width: 20%;
   }
   .burger {
-    font-size: 30px;
-    top: 2.5vh;
+    font-size: 25px;
+    top: 3.5vh;
     right: 3%;
   }
   .nav-menu {
     top: 2.5vh;
     right: 0;
-    height: 34vh;
+    height: 220px;
     width: 35%;
     background-color: #ecf8fb;
     justify-content: center;
@@ -3133,7 +3187,7 @@ body {
   }
   .menu-links {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     display: block;
     padding-top: 40px;
   }
@@ -3159,7 +3213,7 @@ body {
     width: 90%;
   }
   .about-content {
-    height: 90vh;
+    height: 750px;
   }
   .about-content h1 {
     font-size: 25px;
@@ -3181,6 +3235,7 @@ body {
   .skill-7-box,
   .skill-8-box {
     height: 13px;
+    margin-bottom: 10px;
   }
 
   .skill-1-gauge,
@@ -3191,14 +3246,14 @@ body {
   .skill-6-gauge,
   .skill-7-gauge,
   .skill-8-gauge {
-    top: -15px;
+    top: -25px;
     height: 13px;
   }
   #percentage {
     font-size: 12px;
   }
   .footer p {
-    font-size: 12px;
+    font-size: 11px;
   }
   .projects-section {
     height: 95%;
@@ -3278,6 +3333,9 @@ body {
     width: 80%;
     height: 35%;
     word-wrap: break-word;
+  }
+  .media-text {
+    font-size: 12px;
   }
   .form-container {
     height: 55vh;
@@ -3348,7 +3406,7 @@ body {
   .nav-menu {
     top: 3vh;
     right: 0;
-    height: 30vh;
+    height: 180px;
     width: 30%;
     background-color: #ecf8fb;
     justify-content: center;
@@ -3516,6 +3574,9 @@ body {
     height: 35%;
     word-wrap: break-word;
   }
+  .media-text {
+    font-size: 12px;
+  }
   .form-container {
     height: 55vh;
     width: 75%;
@@ -3585,7 +3646,7 @@ body {
   .nav-menu {
     top: 3vh;
     right: 0;
-    height: 30vh;
+    height: 180px;
     width: 30%;
     background-color: #ecf8fb;
     justify-content: center;
@@ -3726,6 +3787,9 @@ body {
     height: 35%;
     word-wrap: break-word;
   }
+  .media-text {
+    font-size: 12px;
+  }
   .form-container {
     height: 55vh;
     width: 75%;
@@ -3776,5 +3840,8 @@ body {
   }
   .design img {
     width: 75%;
+  }
+  .designs-toggle {
+    right: -20px;
   }
 }
