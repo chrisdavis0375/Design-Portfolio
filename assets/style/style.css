@@ -1051,7 +1051,7 @@ body {
     font-size: 18px;
   }
   .projects-container {
-    height: 160vh;
+    height: 180vh;
   }
   .projects-section {
     height: 98%;
@@ -1306,7 +1306,10 @@ body {
     font-size: 13px;
   }
   .projects-container {
-    height: 190vh;
+    height: 230vh;
+  }
+  .project {
+    height: 35%;
   }
   .projects-section {
     height: 97%;
@@ -1429,10 +1432,10 @@ body {
     font-size: 15px;
   }
   .designs-container {
-    height: 1050px;
+    height: 1250px;
   }
   .designs-section {
-    height: 1025px;
+    height: 1225px;
     width: 98%;
   }
   .designs-heading {
@@ -1564,7 +1567,7 @@ body {
     font-size: 13px;
   }
   .projects-container {
-    height: 230vh;
+    height: 190vh;
   }
   .projects-section {
     height: 95%;
@@ -1572,7 +1575,7 @@ body {
   }
   .projects-section img {
     width: 50%;
-    height: 70%;
+    height: 90%;
   }
   .projects-section h1 {
     font-size: 35px;
@@ -1586,14 +1589,15 @@ body {
   }
   .projects-toggle {
     font-size: 20px;
-    margin-top: 70px;
+    margin-top: 50px;
   }
-  .project {
-    margin-top: 20px;
+
+  .project a {
+    height: 60%;
   }
   .project-heading {
     font-size: 20px;
-    margin: 10px 0 10px 0;
+    margin: 0 0 10px 0;
   }
   .project-text {
     width: 80%;
@@ -1687,10 +1691,10 @@ body {
     font-size: 15px;
   }
   .designs-container {
-    height: 1050px;
+    height: 1350px;
   }
   .designs-section {
-    height: 975px;
+    height: 1275px;
     width: 95%;
   }
   .designs-heading {
@@ -1944,10 +1948,10 @@ body {
     font-size: 25px;
   }
   .designs-container {
-    height: 1450px;
+    height: 1750px;
   }
   .designs-section {
-    height: 1375px;
+    height: 1675px;
   }
   .designs-heading {
     height: 310px;
@@ -1960,7 +1964,7 @@ body {
     height: 850px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
   .design {
     justify-content: center;
@@ -2200,10 +2204,10 @@ body {
     font-size: 20px;
   }
   .designs-container {
-    height: 1250px;
+    height: 1450px;
   }
   .designs-section {
-    height: 1175px;
+    height: 1375px;
   }
   .designs-heading {
     height: 210px;
@@ -2216,7 +2220,7 @@ body {
     height: 750px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
   .design {
     justify-content: center;
@@ -2453,10 +2457,10 @@ body {
     font-size: 20px;
   }
   .designs-container {
-    height: 1150px;
+    height: 1350px;
   }
   .designs-section {
-    height: 1075px;
+    height: 1275px;
   }
   .designs-heading {
     height: 210px;
@@ -2470,6 +2474,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    justify-content: center;
   }
   .design {
     justify-content: center;
